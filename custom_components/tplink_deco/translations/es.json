@@ -1,0 +1,69 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "description": "Usa las credenciales del portal web de administración. Consulta la documentación para ver los detalles de configuración.",
+        "data": {
+          "host": "Host",
+          "username": "Nombre de usuario",
+          "password": "Contraseña",
+          "scan_interval": "Segundos entre actualizaciones",
+          "consider_home": "Segundos que se debe esperar antes de marcar un dispositivo como fuera de casa cuando deja de detectarse.",
+          "timeout_seconds": "Segundos de tiempo de espera",
+          "timeout_error_retries": "Número de reintentos tras un error de tiempo de espera",
+          "verify_ssl": "Verificar que el certificado SSL sea válido",
+          "client_prefix": "Prefijo del nombre del cliente",
+          "client_postfix": "Sufijo del nombre del cliente",
+          "deco_prefix": "Prefijo del nombre del Deco",
+          "deco_postfix": "Sufijo del nombre del Deco"
+        }
+      },
+      "reauth_confirm": {
+        "description": "Hay un problema con las credenciales de inicio de sesión. Puede deberse a que se ha iniciado sesión desde otro dispositivo. Consulta la documentación para conocer los requisitos de inicio de sesión.",
+        "data": {
+          "username": "Nombre de usuario",
+          "password": "Contraseña"
+        }
+      }
+    },
+    "abort": {
+      "reauth_successful": "Reautenticación completada correctamente"
+    },
+    "error": {
+      "invalid_auth": "Autenticación no válida",
+      "invalid_host": "No se ha podido conectar con el host.",
+      "timeout_connect": "Se ha agotado el tiempo de espera al establecer la conexión",
+      "unknown": "Error inesperado"
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "description": "Usa las credenciales del portal web de administración. Consulta la documentación para ver los detalles de configuración.",
+        "data": {
+          "host": "Host",
+          "username": "Nombre de usuario",
+          "password": "Contraseña",
+          "scan_interval": "Segundos entre actualizaciones",
+          "consider_home": "Segundos que se debe esperar antes de marcar un dispositivo como fuera de casa cuando deja de detectarse.",
+          "timeout_seconds": "Segundos de tiempo de espera",
+          "timeout_error_retries": "Número de reintentos tras un error de tiempo de espera",
+          "verify_ssl": "Verificar que el certificado SSL sea válido",
+          "client_prefix": "Prefijo del nombre del cliente",
+          "client_postfix": "Sufijo del nombre del cliente",
+          "deco_prefix": "Prefijo del nombre del Deco",
+          "deco_postfix": "Sufijo del nombre del Deco"
+        }
+      }
+    },
+    "abort": {
+      "reauth_successful": "Reautenticación completada correctamente"
+    },
+    "error": {
+      "invalid_auth": "Autenticación no válida",
+      "invalid_host": "No se ha podido conectar con el host.",
+      "timeout_connect": "Se ha agotado el tiempo de espera al establecer la conexión",
+      "unknown": "Error inesperado"
+    }
+  }
+}
